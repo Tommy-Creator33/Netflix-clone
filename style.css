@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  background-image: url("bild.png");
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .login {
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+  font-family: Avenir-Light, Arial, Helvetica, sans-serif;
+  padding: 9px;
+  border-radius: 14px;
+  border: 1.4px solid white;
+  text-decoration: none;
+}
+
+nav .login:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

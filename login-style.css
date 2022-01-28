@@ -1,0 +1,22 @@
+body {
+    background-image: url("bild.jpg");
+    background-color: black;
+    background-image: no-repeat;
+}
+.Einloggen {
+    color: white;
+}
+.Login-field {
+    background-color: black;
+    opacity: 90%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border: none;
+    padding: 10px;
+}
+.header {
+    width: 167px;
+    height: 60px;
+    opacity: 100000000%;
+}
