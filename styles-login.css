@@ -1,0 +1,138 @@
+body {
+    background: rgba(0, 0, 14, 0.889);
+    cursor: default;
+    -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+}
+
+.logo {
+    height: 86px;
+    width: 181px;
+    margin-top: 41px;
+    margin-left: 44.25%;
+}
+
+.title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    margin-top: 27px;
+    margin-left: 38.7%;
+}
+
+#username-field {
+    margin-top: 25px;
+    margin-left: 38.71%;
+    width: 365px;
+    height: 47px;
+    border-radius: 4px;
+    background: rgba(128, 128, 128, 0.326);
+    opacity: 90%;
+    color: white;
+    display: flex;
+    border: none;
+    font-size: 15px;
+    text-align: left;
+    caret-color: aqua;
+}
+.email:focus {
+    outline: 0.1px solid rgba(255, 255, 255, 0.583);
+}
+
+#password-field {
+    margin-top: 25px;
+    margin-left: 38.71%;
+    width: 365px;
+    height: 47px;
+    border-radius: 4px;
+    background: rgba(128, 128, 128, 0.326);
+    opacity: 90%;
+    color: white;
+    display: flex;
+    border: none;
+    font-size: 15px;
+    text-align: left;
+    caret-color: aqua;
+}
+#password-field:focus {
+    outline: 0.1px solid rgba(255, 255, 255, 0.583);
+}
+
+.signup-email  {
+    margin-left: 38.41%;
+    margin-top: 39.9px;
+    height: 8.8px;
+    width: 327px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #005cff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+}
+.in-signup-email {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-left: -33px;
+    margin-top: -2.2px;
+    position: absolute;
+}
+.signup-email:hover {
+    background-color: #005eff;
+
+}
+
+.back-to-index {
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: -240px;
+    text-decoration: none;
+    position: absolute;
+}
+
+#login-form-submit {
+position: absolute;
+border: none;
+border-radius: 4px;
+text-decoration: none;
+font-size: 20px;
+background-color: #005cff;
+width: 369.1px;
+text-align: center;
+padding: 22px;
+margin: 5.19%;
+color: white;
+margin: 5.19%;
+height: 19.1px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+cursor: default;
+margin-top: 25px;
+margin-left: 38.4%;
+}
+
+#login-error-msg {
+    background-color: rgba(176, 45, 45, 0.771);
+    width: 222px;
+    border-radius: 4px;
+    border: 2px solid red;
+    padding: 9px;
+    margin-left: 61%;
+    margin-top: -48.63px;
+    position: absolute;
+    height: 23.4px;
+}
+
+.inn {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 47.2%;
+    margin-top: 40px;
+    position: absolute;
+}
